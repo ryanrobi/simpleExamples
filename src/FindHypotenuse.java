@@ -7,9 +7,9 @@ public class FindHypotenuse {
 
     public static void main(String[] args) {
         Scanner reader = new Scanner(System.in);
-        System.out.println("Enter the height: ");
+        System.out.print("Enter the height: ");
         double height = reader.nextFloat();
-        System.out.println("Enter the base: ");
+        System.out.print("Enter the base: ");
         double base = reader.nextFloat();
 
         System.out.println("The hypotenuse of the triangle is: " + calculateHypotenuse(height, base));
